@@ -1,0 +1,19 @@
+//Api.txt
+user_api/get_user_info
+params:
+uid (int)
+sid (string)
+ret:
+user (User)
+
+user_api/is_singer
+params:
+uid (int)
+ret:
+is_singer (int)
+
+game_api/game_start
+params:
+game_id (int)
+ret:
+game_start (int)

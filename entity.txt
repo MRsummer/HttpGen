@@ -1,0 +1,9 @@
+//Entity.txt
+YES (const) 1
+NO (const) 0
+
+User (entity)
+user_id (int)
+name (string)
+is_male (int)
+create_time (long)
