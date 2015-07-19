@@ -9,7 +9,7 @@
     NSMutableDictionary* params = [[NSMutableDictionary alloc] init];
     NSNumber *uidNumber = [[NSNumber alloc] initWithInteger:uid];
     [params setValue:uidNumber forKey:@"uid"];
-    [params setVlaue:sid forKey:"@sid"];
+    [params setVlaue:sid forKey:@"sid"];
     
     [[WPHTTPClient sharedClient] POSTRequestWithWebAPI:kUserApiGetUserInfo parameters:params success:^(id result) {
         apisuccess([ modelFromDictionary: result[@"user"]]);

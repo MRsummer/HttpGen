@@ -186,7 +186,7 @@ class OCParser {
                     $set_params .= "NSNumber *".$param->name."Number = [[NSNumber alloc] initWithInteger:".$param->name."];\n    ";
                     $set_params .= "[params setValue:".$param->name."Number forKey:@\"".$param->name."\"];\n    ";
                 }else if($param->type == TypeConst::type_string){
-                    $set_params .= "[params setVlaue:".$param->name." forKey:\"@".$param->name."\"];\n    ";
+                    $set_params .= "[params setVlaue:".$param->name." forKey:@\"".$param->name."\"];\n    ";
                 }
             }
         }

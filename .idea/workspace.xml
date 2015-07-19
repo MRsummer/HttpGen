@@ -26,7 +26,7 @@
       <file leaf-file-name="OCParser.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OCParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="8" selection-start="7112" selection-end="7112" vertical-scroll-proportion="1.0841346" vertical-offset="3029" max-vertical-offset="5160">
+            <state line="188" column="20" selection-start="7725" selection-end="7725" vertical-scroll-proportion="1.1322116" vertical-offset="3189" max-vertical-offset="5160">
               <folding />
             </state>
           </provider>
@@ -105,20 +105,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HttpGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HttpGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HttpGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +269,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OCParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="8" selection-start="7112" selection-end="7112" vertical-scroll-proportion="1.0841346" vertical-offset="3029" max-vertical-offset="5160">
+        <state line="188" column="20" selection-start="7725" selection-end="7725" vertical-scroll-proportion="1.1322116" vertical-offset="3189" max-vertical-offset="5160">
           <folding />
         </state>
       </provider>
