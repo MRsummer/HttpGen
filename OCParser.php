@@ -177,6 +177,8 @@ class OCParser {
         $api_func_name = $this->get_api_func_name($api, $param_arr, $ret_arr);
         $template = str_replace("{apiFuncName}", $api_func_name, $template);
 
+        $template = str_replace("{api}", $api, $template);
+
         $set_params = "";
         if(count($param_arr) > 0){
             foreach($param_arr as $param){

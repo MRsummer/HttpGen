@@ -30,7 +30,7 @@ class Config{
 '{apiFuncName}{
     NSMutableDictionary* params = [[NSMutableDictionary alloc] init];
     {setParams}
-    [[WPHTTPClient sharedClient] POSTRequestWithWebAPI:api parameters:params success:^(id result) {
+    [[WPHTTPClient sharedClient] POSTRequestWithWebAPI:@"{api}" parameters:params success:^(id result) {
         {onSuccessCode}
     } failure:^(NSString* errmsg) {
         apifailure(errmsg);
