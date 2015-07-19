@@ -25,6 +25,7 @@ if(!file_exists(Config::output_folder)){
 $parser = new OCParser();
 parse_entity_file(Config::entity_file_name, $parser);
 parse_api_file(Config::api_file_name, $parser);
+$parser->on_parse_end();
 
 function parse_entity_file($path, OCParser& $parser){
     $content_arr = get_content_arr_filter_line($path, "//");
