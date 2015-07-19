@@ -177,7 +177,7 @@ class OCParser {
         $api_func_name = $this->get_api_func_name($api, $param_arr, $ret_arr);
         $template = str_replace("{apiFuncName}", $api_func_name, $template);
 
-        $template = str_replace("{api}", $api, $template);
+        $template = str_replace("{api}", $this->get_api_camel_name($api), $template);
 
         $set_params = "";
         if(count($param_arr) > 0){
@@ -251,7 +251,6 @@ class OCParser {
     private function write_common_file_header($path){
         FileHelper::clearFile($path);
         FileHelper::appendLine($path, Config::file_prefix);
-        FileHelper::appendLine($path, "//Created automatically on ".date("y-m-d H:i:s"));
         FileHelper::appendLine($path, "");
         FileHelper::appendLine($path, "#import <Fundation.h>");
     }

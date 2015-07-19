@@ -22,7 +22,17 @@
     <favorites_list name="HttpGen" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="OCParser.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OCParser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="179" column="8" selection-start="7112" selection-end="7112" vertical-scroll-proportion="1.0841346" vertical-offset="3029" max-vertical-offset="5160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -95,6 +105,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HttpGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HttpGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HttpGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,19 +272,19 @@
         <state line="11" column="8" selection-start="139" selection-end="139" vertical-scroll-proportion="0.28460544" vertical-offset="0" max-vertical-offset="773" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="8" selection-start="7112" selection-end="7112" vertical-scroll-proportion="0.4651163" vertical-offset="3140" max-vertical-offset="5180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="988" selection-end="988" vertical-scroll-proportion="0.67741936" vertical-offset="136" max-vertical-offset="880">
+        <state line="32" column="60" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.7163978" vertical-offset="107" max-vertical-offset="880">
           <folding>
             <element signature="e#6#91#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OCParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="8" selection-start="7112" selection-end="7112" vertical-scroll-proportion="1.0841346" vertical-offset="3029" max-vertical-offset="5160">
+          <folding />
         </state>
       </provider>
     </entry>
